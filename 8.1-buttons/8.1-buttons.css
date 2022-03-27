@@ -1,0 +1,145 @@
+*{
+    color: whitesmoke;
+}
+
+body{
+    text-align: center;
+    background-color: #32465f;
+}
+
+/* ------- */
+
+button{
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+/* ------- */
+
+.round button,
+.round_ghost button{
+    border-radius: 30px;
+}
+
+.flat_ghost button,
+.round_ghost button{
+    background: none;
+}
+
+/* sizes */
+
+.register{
+    padding: 15px 40px;
+}
+
+.clear{
+    padding: 10px 20px;
+}
+
+.submit{
+    padding: 5px 20px;
+}
+
+/* flat&round - background-color */
+
+.flat .register{
+    background-color: #02af5f;
+}
+
+.flat .clear{
+    background-color: #fb2323;
+}
+
+.flat .submit{
+    background-color: #098edd;
+}
+
+.round .register{
+    background-color: #f47900;
+}
+
+.round .clear{
+    background-color: #f2ce00;
+}
+
+.round .submit{
+    background-color: #7d8d8e;
+}
+
+/* flat&round:hover - background-color */
+
+.flat .register:hover{
+    background-color: #02af5eb0;
+}
+
+.flat .clear:hover{
+    background-color: #fb2323a8;
+}
+
+.flat .submit:hover{
+    background-color: #098fdda4;
+}
+
+.round .register:hover{
+    background-color: #f47a00a1;
+}
+
+.round .clear:hover{
+    background-color: #f2ce0091;
+}
+
+.round .submit:hover{
+    background-color: #7d8d8e8e;
+}
+
+/* flat_ghost&round_ghost - border */
+
+.flat_ghost .register{
+    border: 3px solid #02af5f;
+}
+
+.flat_ghost .clear{
+    border: 3px solid #fb2323;
+}
+
+.flat_ghost .submit{
+    border: 3px solid #098edd;
+}
+
+.round_ghost .register{
+    border: 3px solid #f47900;
+}
+
+.round_ghost .clear{
+    border: 3px solid #f2ce00;
+}
+
+.round_ghost .submit{
+    border: 3px solid #7d8d8e;
+}
+
+/* flat_ghost&round_ghost:hover - background-color */
+
+.flat_ghost .register:hover{
+    background-color: #02af5f;
+}
+
+.flat_ghost .clear:hover{
+    background-color: #fb2323;
+}
+
+.flat_ghost .submit:hover{
+    background-color: #098edd;
+}
+
+.round_ghost .register:hover{
+    background-color: #f47900;
+}
+
+.round_ghost .clear:hover{
+    background-color: #f2ce00;
+}
+
+.round_ghost .submit:hover{
+    background-color: #7d8d8e;
+}
