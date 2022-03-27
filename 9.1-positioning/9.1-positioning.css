@@ -1,3 +1,5 @@
+/* ---Given in the exercise--- */
+
 #outer {
     width: 100px;
     height: 100px;
@@ -10,5 +12,34 @@
     height: 50px;
     background: lightgreen;
     position: absolute;
+    top: 10px;
+}
+
+
+/* ---My explanation--- */
+/* The problem is that tha small box modify by absolute position, that its relative to the body.  */
+/* We need to change it to relative, and then the ratio of the position will be in relation to the big box that is his father */
+
+/* ---Space--- */
+
+.space{
+    height: 40px;
+}
+
+
+/* ---My solution--- */
+
+#outer_solution {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    margin: 50px;
+}
+
+#inner_solution {
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+    position: relative;
     top: 10px;
 }
